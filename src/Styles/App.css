@@ -1,0 +1,148 @@
+
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.header{
+    background-color: #4885ed;
+    color:white;
+    text-align: left;
+    font-weight: bold;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 100;
+  }
+
+@media screen and (min-width: 768px) {
+    .social-link {
+      float: right; 
+    }
+  }
+
+.navbar.navbar-expand-md.navbar-light.bg-light {
+    position: fixed;
+    width:83%;
+    border-bottom: 0.5px solid gray;
+  }
+
+.navbar-collapse{
+  flex-grow: 0 !important;
+  }
+
+  .btn-secondary:hover{
+    color:gold !important;
+  }
+
+Container{
+      position:fixed;
+  }
+
+a.nav-link:hover{
+    background-color:gray !important;
+    color:white !important;
+    font-weight: bold;
+  }
+
+ a.nav-link.active{
+    background-color:black !important;
+    color:white !important;
+  }
+
+a{
+    color:black !important;
+  }
+a:hover{
+    cursor:pointer;
+}
+.navigation{
+      margin-top:70px;
+      position: fixed;
+      z-index: 99;
+      background-color: white;   
+      width: 100%
+}
+
+.forminput{
+    display:inline-block !important;
+    padding:0px !important;
+}
+
+.sociallink{
+    width:25;
+    height:25;
+    float:right;
+}
+
+.footer{
+    background-color: grey;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    padding: 0px 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 100;
+  }
+  
+.phantom{
+  display: block;
+  padding: 20px;
+  height: 60px;
+  width: 100%;
+  }
+
+  tbody {
+    display:block;
+    max-height:500px;
+    overflow-y:auto;
+  }
+
+  thead, tbody tr {
+    display:table;
+    width:100%;
+    /* width: var(--table-width); */
+    table-layout:fixed;
+  }
+
+  th {
+      overflow: hidden;
+      text-align: left;
+      width: fit-content;
+  }
+  
+  DatePicker{
+    padding-top: 50px;
+  }
+
+.react-date-picker.react-date-picker--closed.react-date-picker--enabled {
+    padding-right: 25px;
+}
+
+.social-link {
+    height: 20px !important;
+    width: 20px !important; 
+    padding-right: 25px
+}
+
+.maincontent {
+    padding-top: 210px;
+    position: relative;
+    z-index: 2;
+    bottom: 50px;
+}
+
+.maincontent .dateselector .col-sm-6 {
+  padding-top:10px;
+}
+
+@media screen and (max-width: 768px) {
+  .form-row>.col, .form-row>[class*=col-] {
+   padding-top:20px;
+  }
+}
